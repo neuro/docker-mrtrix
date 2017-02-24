@@ -20,4 +20,4 @@ RUN git checkout tags/0.3.15
 ENV CXX=/usr/bin/clang++
 RUN ./configure
 RUN ./build
-ENV PATH=/root/mrtrix3/release/bin:$PATH
+RUN ./set-path
