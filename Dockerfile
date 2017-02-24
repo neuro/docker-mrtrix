@@ -1,7 +1,6 @@
 FROM debian:jessie
 MAINTAINER Jan-Gerd Tenberge <jan-gerd.tenberge@uni-muenster.de>
 
-ADD sources.list /etc/apt/sources.list
 RUN apt-get update 
 RUN apt-get install -y --no-install-recommends \
     python \

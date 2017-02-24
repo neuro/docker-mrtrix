@@ -1,4 +1,0 @@
-deb ftp://ftp.de.debian.org/debian/ jessie main
-deb ftp://ftp.de.debian.org/debian/ jessie-updates main
-deb http://security.debian.org jessie/updates main
-
