@@ -13,7 +13,7 @@ RUN apt-get install -y --no-install-recommends \
     git \
     ca-certificates
 RUN mkdir /mrtrix
-RUN git clone https://github.com/MRtrix3/mrtrix3.git --depth 1 --branch 0.3.16 /mrtrix
+RUN git clone https://github.com/MRtrix3/mrtrix3.git --depth 1 --branch 3.0_RC2 /mrtrix
 WORKDIR /mrtrix
 ENV CXX=/usr/bin/clang++
 RUN ./configure
